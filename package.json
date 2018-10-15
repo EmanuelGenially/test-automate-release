@@ -12,8 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "semantic-release": "semantic-release"
+    "eject": "react-scripts eject"
   },
   "husky": {
     "hooks": {
@@ -31,11 +30,6 @@
   ],
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
-    "@commitlint/config-conventional": "^7.1.2",
-    "semantic-release": "^15.9.17"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EmanuelGenially/test-automate-release.git"
+    "@commitlint/config-conventional": "^7.1.2"
   }
 }
