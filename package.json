@@ -14,7 +14,9 @@
     "eject": "react-scripts eject"
   },
   "husky": {
-    "commit-msg": "commitlint -E GIT_PARAMS"
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
