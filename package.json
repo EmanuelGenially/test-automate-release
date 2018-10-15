@@ -1,6 +1,6 @@
 {
   "name": "test-automate-release",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "dependencies": {
     "automate-release": "^0.7.4",
