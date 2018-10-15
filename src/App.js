@@ -13,6 +13,8 @@ class App extends Component {
             reload.
           </p>
           <br />
+          <br />
+          <br />
           <a
             className="App-link"
             href="https://reactjs.org"
