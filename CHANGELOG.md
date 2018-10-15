@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/EmanuelGenially/test-automate-release/compare/v0.3.0...v0.4.0) (2018-10-15)
+
+
+### Bug Fixes
+
+* **main:**  real bug fixed in App ([dbf2a6d](https://github.com/EmanuelGenially/test-automate-release/commit/dbf2a6d))
+
+
+### Features
+
+* **adding:** more br is better ([750ca5c](https://github.com/EmanuelGenially/test-automate-release/commit/750ca5c))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/EmanuelGenially/test-automate-release/compare/v0.2.1...v0.3.0) (2018-10-15)
 
