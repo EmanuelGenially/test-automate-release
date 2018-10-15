@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/EmanuelGenially/test-automate-release/compare/v0.4.2...v0.5.0) (2018-10-15)
+
+
+### Bug Fixes
+
+* add div ([79ad3bc](https://github.com/EmanuelGenially/test-automate-release/commit/79ad3bc))
+* add jeje ([d8b2242](https://github.com/EmanuelGenially/test-automate-release/commit/d8b2242))
+* add space ([ef08c5d](https://github.com/EmanuelGenially/test-automate-release/commit/ef08c5d))
+
+
+### Features
+
+* change alt ([bf9c0a5](https://github.com/EmanuelGenially/test-automate-release/commit/bf9c0a5))
+
+
+
 <a name="0.4.2"></a>
 ## [0.4.2](https://github.com/EmanuelGenially/test-automate-release/compare/v0.4.1...v0.4.2) (2018-10-15)
 
