@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <div />
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit refactor a fix bug fix <code>src/App.js</code> and save to lul
