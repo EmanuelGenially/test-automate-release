@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit refactor fix bug fix <code>src/App.js</code> and save to lul
+            Edit refactor a fix bug fix <code>src/App.js</code> and save to lul
             reload.
           </p>
           <br />
