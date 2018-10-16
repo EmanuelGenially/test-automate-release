@@ -19,14 +19,28 @@ First, it is necessary [Husky](https://github.com/typicode/husky#readme)
 npm install husky --save-dev
 ```
 
+let´s go to install commitlint
+
+```
+npm install --save-dev @commitlint/{config-conventional,cli}
+```
+
 and add in package.json
 
 ```
+//package.json
 "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
+}
+```
+
+#### Test to commitlint
+
+```
+git commit -m "foo: test failed" //fail
+git commit -m "fix: test ok" //ok
 ```
 
 ### Installing
