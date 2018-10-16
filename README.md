@@ -25,6 +25,11 @@ let´s go to install commitlint
 ```
 npm install --save-dev @commitlint/{config-conventional,cli}
 ```
+go to config commitlint
+
+```
+echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+```
 
 and add in package.json
 
