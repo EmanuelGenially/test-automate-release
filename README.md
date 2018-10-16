@@ -27,7 +27,7 @@ npm install --save-dev @commitlint/{config-conventional,cli}
 
 and add in package.json
 
-```
+```javascript
 // package.json
 "husky": {
   "hooks": {
@@ -38,7 +38,7 @@ and add in package.json
 
 #### Test to commitlint
 
-```
+```javascript
 git commit -m "foo: test failed" // fail
 git commit -m "fix: test ok" // ok
 ```
