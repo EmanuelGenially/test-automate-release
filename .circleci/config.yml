@@ -30,3 +30,12 @@ jobs:
       - checkout
       - run: npm install
       - run: npx semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - build
+      - release:
+          requires:
+            - build
