@@ -47,9 +47,9 @@ git commit -m "fix: test ok" // ok
 
 > Read more: [Angular contribution guideline](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
 
-**types**, **name**
+**types**, (_name_)
 
-- **build**: Changes that affect the build system or external dependencies.
+- **build**(_dependencies_): Changes that affect the build system or external dependencies.
 - **ci**: Changes to our CI configuration files and scripts.
 - **docs**: Documentation only changes.
 - **feat**: A new feature.
