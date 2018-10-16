@@ -59,9 +59,55 @@ git commit -m "fix: test ok" // ok
 - **style**: Changes that do not affect the meaning of the code.
 - **test**: Adding missing tests or correcting existing tests.
 
-## Running the tests
+### Circle CI for continuous integration
 
-Explain how to run the automated tests for this system
+Configure your proyect in [CircleCi](https://circleci.com)
+
+**config.yml** for CircleCi (_change your node version in_ `circleci/node:10.11.0`)
+
+```yml
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.11.0
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: yarn test
+
+  release:
+    docker:
+      - image: circleci/node:10.11.0
+    steps:
+      - checkout
+      - run: npm install
+      - run: npx semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - build
+      - release:
+          requires:
+            - build
+```
 
 ### Break down into end to end tests
 
