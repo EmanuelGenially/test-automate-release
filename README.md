@@ -83,9 +83,9 @@ add semantic-release to dev dependencies
 
 | Commit message                                                                                                                                                                                   | Release type               |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release              |
-| `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release  |
-| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release |
+| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release  (0.0.**1**)            |
+| `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release (0.**1**.0)  |
+| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release (**1**.0.0)|
 
 ### Circle CI for continuous integration
 
