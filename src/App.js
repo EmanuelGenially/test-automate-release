@@ -8,15 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div />
-          <img src={logo} className="App-logo" alt="logo dos" />
+          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit refactor a fix bug fix <code>src/App.js</code> and save to lul
-            reload. this is a change. Stop. jojo. This is other change
+            Edit <code>src/App.js</code> and save to reload.
           </p>
-          jejeje
-          <br />
-          <br />
-          <br />
           <a
             className="App-link"
             href="https://reactjs.org"
