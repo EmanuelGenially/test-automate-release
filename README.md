@@ -28,7 +28,7 @@ npm install --save-dev @commitlint/{config-conventional,cli}
 and add in package.json
 
 ```
-//package.json
+// package.json
 "husky": {
   "hooks": {
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
@@ -39,8 +39,8 @@ and add in package.json
 #### Test to commitlint
 
 ```
-git commit -m "foo: test failed" //fail
-git commit -m "fix: test ok" //ok
+git commit -m "foo: test failed" // fail
+git commit -m "fix: test ok" // ok
 ```
 
 ### Installing
