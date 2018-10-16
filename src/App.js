@@ -11,7 +11,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo dos" />
           <p>
             Edit refactor a fix bug fix <code>src/App.js</code> and save to lul
-            reload. this is a change. Stop. jojo
+            reload. this is a change. Stop. jojo. This is other change
           </p>
           jejeje
           <br />
