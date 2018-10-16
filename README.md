@@ -50,8 +50,8 @@ git commit -m "fix: test ok" // ok
 **types**, (_name_)
 
 - **build**(_dependencies_): Changes that affect the build system or external dependencies.
-- **ci**: Changes to our CI configuration files and scripts.
-- **docs**: Documentation only changes.
+- **ci**(_CircleCi_): Changes to our CI configuration files and scripts.
+- **docs**(_readme_): Documentation only changes.
 - **feat**: A new feature.
 - **fix**: A bug fix.
 - **perf**: A code change that improves performance.
