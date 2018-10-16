@@ -47,19 +47,17 @@ git commit -m "fix: test ok" // ok
 
 > Read more: [Angular contribution guideline](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
 
-**types**
+**types**, **name**
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+- **build**: Changes that affect the build system or external dependencies.
+- **ci**: Changes to our CI configuration files and scripts.
+- **docs**: Documentation only changes.
+- **feat**: A new feature.
+- **fix**: A bug fix.
+- **perf**: A code change that improves performance.
+- **refactor**: A code change that neither fixes a bug or adds a feature.
+- **style**: Changes that do not affect the meaning of the code.
+- **test**: Adding missing tests or correcting existing tests.
 
 ## Running the tests
 
