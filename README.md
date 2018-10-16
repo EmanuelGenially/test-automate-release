@@ -2,6 +2,7 @@
 
 - Lint for commits
 - Commit messages
+- Install semanctic-release
 - Circle CI for continuous integration
 - And automatic release on push to master or by merging a pull request or merging from another branch
 
@@ -59,6 +60,22 @@ git commit -m "fix: test ok" // ok
 - **style**: Changes that do not affect the meaning of the code.
 - **test**: Adding missing tests or correcting existing tests.
 
+### Install semantic-release
+
+Go to install [semanctic-release](https://github.com/semantic-release/semantic-release)
+
+`npm install -g semantic-release-cli`
+
+add semantic-release to dev dependencies
+
+```json
+"devDependencies": {
+  "@commitlint/cli": "^7.2.1",
+  "@commitlint/config-conventional": "^7.1.2",
+  "semantic-release": "^15.0.0"
+}
+```
+
 ### Circle CI for continuous integration
 
 Configure your proyect in [CircleCi](https://circleci.com)
@@ -109,52 +126,16 @@ workflows:
             - build
 ```
 
-### Break down into end to end tests
+Add enviroment variables to CircleCi `GH_TOKEN` and `NPM_TOKEN`
 
-Explain what these tests test and why
+## Automatic release
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+And now, automatic release on push to master or by merging a pull request or merging from another branch.
 
 ## Built With
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [commitlint](https://github.com/marionebl/commitlint)
+- [Husky](https://github.com/typicode/husky#readme)
+- [Angular contribution guideline](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
+- [semanctic-release](https://github.com/semantic-release/semantic-release)
+- [CircleCi](https://circleci.com)
