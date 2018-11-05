@@ -11,8 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postpublish": "cp -r package.json"
+    "eject": "react-scripts eject"
   },
   "husky": {
     "hooks": {
