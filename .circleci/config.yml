@@ -29,7 +29,7 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npx semantic-release
+      - run: npx -v semantic-release
 
 workflows:
   version: 2
