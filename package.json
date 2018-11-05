@@ -22,6 +22,7 @@
     "extends": "react-app"
   },
   "release": {
+    "verifyConditions": "condition-circle",
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
