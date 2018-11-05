@@ -54,7 +54,7 @@
         {
           "assets": [
             {
-              "path": "package.json"
+              "path": "dist/package.json"
             }
           ]
         }
