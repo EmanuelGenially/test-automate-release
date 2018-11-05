@@ -50,12 +50,11 @@
         }
       ],
       [
-        "@semantic-release/git",
+        "@semantic-release/github",
         {
           "assets": [
             {
-              "path": "package.json",
-              "label": "Package"
+              "path": "package.json"
             }
           ]
         }
