@@ -3,9 +3,9 @@
     ["@semantic-release/commit-analyzer", {
       "preset": "angular",
       "releaseRules": [
-        {"type": "docs", "release": "patch"},
-        {"type": "refactor", "release": "patch"},
-        {"type": "style", "release": "patch"}
+        {"type": "docs", "release": "minor"},
+        {"type": "refactor", "release": "minor"},
+        {"type": "style", "release": "minor"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
