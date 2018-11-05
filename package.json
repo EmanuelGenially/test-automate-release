@@ -22,7 +22,6 @@
     "extends": "react-app"
   },
   "release": {
-    "verifyConditions": "condition-circle",
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
@@ -79,6 +78,6 @@
     "@semantic-release/release-notes-generator": "^7.1.3",
     "condition-circle": "^2.0.1",
     "husky": "^1.1.2",
-    "semantic-release": "^15.0.0"
+    "semantic-release": "^15.10.7"
   }
 }
