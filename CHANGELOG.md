@@ -1,5 +1,17 @@
 # Change Log
 
+## [0.12.14](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.13...v0.12.14) (2018-11-06)
+
+
+### :alien: Automatic
+
+* Merge pull request #17 from EmanuelGenially/test_pr ([22981ad](https://github.com/EmanuelGenially/test-automate-release/commit/22981ad)), closes [#17](https://github.com/EmanuelGenially/test-automate-release/issues/17)
+
+
+### :hankey: Writing bad code that needs to be improved
+
+* **caca:** test pr ([3323639](https://github.com/EmanuelGenially/test-automate-release/commit/3323639))
+
 ## [0.12.13](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.12...v0.12.13) (2018-11-06)
 
 
