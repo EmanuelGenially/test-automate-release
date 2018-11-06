@@ -16,6 +16,10 @@ module.exports = {
           {
             type: 'style',
             release: 'patch'
+          },
+          {
+            type: 'summary',
+            release: 'patch'
           }
         ]
       }
@@ -52,6 +56,8 @@ module.exports = {
               commit.type = `Build System`;
             } else if (commit.type === `ci`) {
               commit.type = `Continuous Integration`;
+            } else if (commit.type === `summary`) {
+              commit.type = `Summary :bug:`;
             }
 
             if (commit.scope === `*`) {
