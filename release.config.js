@@ -147,7 +147,7 @@ module.exports = {
             } else if (commit.type === `docs`) {
               commit.type = `:memo: Writing documentation`;
             } else if (commit.type === `style`) {
-              commit.type = `:lipstick: Updating the UI and style files.`;
+              commit.type = `:lipstick: Updating the UI and style files`;
             } else if (commit.type === `refactor`) {
               commit.type = `:recycle: Code Refactoring`;
             } else if (commit.type === `test`) {
@@ -159,59 +159,59 @@ module.exports = {
             } else if (commit.type === `summary`) {
               commit.type = `:bulb: Summary`;
             } else if (commit.type === `format`) {
-              commit.type = `:art: Improving structure / format of the code.`;
+              commit.type = `:art: Improving structure / format of the code`;
             } else if (commit.type === `remove`) {
               commit.type = `:fire: Removing code or files.`;
             } else if (commit.type === `hotfix`) {
-              commit.type = `:ambulance: Critical hotfix.`;
+              commit.type = `:ambulance: Critical hotfix`;
             } else if (commit.type === `deploy`) {
-              commit.type = `:rocket: Deploying stuff.`;
+              commit.type = `:rocket: Deploying stuff`;
             } else if (commit.type === `initial`) {
-              commit.type = `:tada: Initial commit.`;
+              commit.type = `:tada: Initial commit`;
             } else if (commit.type === `security`) {
-              commit.type = `:lock: Fixing security issues.`;
+              commit.type = `:lock: Fixing security issues`;
             } else if (commit.type === `ios`) {
-              commit.type = `:green_apple: Fixing something on iOS.`;
+              commit.type = `:green_apple: Fixing something on iOS`;
             } else if (commit.type === `android`) {
-              commit.type = `:robot: Fixing something on Android.`;
+              commit.type = `:robot: Fixing something on Android`;
             } else if (commit.type === `warnings`) {
-              commit.type = `:rotating_light: Removing linter warnings.`;
+              commit.type = `:rotating_light: Removing linter warnings`;
             } else if (commit.type === `wip`) {
-              commit.type = `:construction: Work in progress.`;
+              commit.type = `:construction: Work in progress`;
             } else if (commit.type === `upgrade`) {
-              commit.type = `:arrow_up: Upgrading dependencies.`;
+              commit.type = `:arrow_up: Upgrading dependencies`;
             } else if (commit.type === `downgrade`) {
-              commit.type = `:arrow_down: Downgrading dependencies.`;
+              commit.type = `:arrow_down: Downgrading dependencies`;
             } else if (commit.type === `config`) {
-              commit.type = `:wrench: Changing configuration files.`;
+              commit.type = `:wrench: Changing configuration files`;
             } else if (commit.type === `langs`) {
-              commit.type = `:globe_with_meridians: Internationalization and localization.`;
+              commit.type = `:globe_with_meridians: Internationalization and localization`;
             } else if (commit.type === `bad`) {
-              commit.type = `:hankey: Writing bad code that needs to be improved.`;
+              commit.type = `:hankey: Writing bad code that needs to be improved`;
             } else if (commit.type === `rename`) {
-              commit.type = `:truck: Moving or renaming files.`;
+              commit.type = `:truck: Moving or renaming files`;
             } else if (commit.type === `assets`) {
-              commit.type = `:bento: Adding or updating assets.`;
+              commit.type = `:bento: Adding or updating assets`;
             } else if (commit.type === `changes`) {
-              commit.type = `:ok_hand: Updating code due to code review changes.`;
+              commit.type = `:ok_hand: Updating code due to code review changes`;
             } else if (commit.type === `texts`) {
-              commit.type = `:speech_balloon: Updating text and literals.`;
+              commit.type = `:speech_balloon: Updating text and literals`;
             } else if (commit.type === `addlogs`) {
-              commit.type = `:loud_sound: Adding logs.`;
+              commit.type = `:loud_sound: Adding logs`;
             } else if (commit.type === `removelogs`) {
-              commit.type = `:mute: Removing logs.`;
+              commit.type = `:mute: Removing logs`;
             } else if (commit.type === `ux`) {
-              commit.type = `:children_crossing: Improving user experience / usability.`;
+              commit.type = `:children_crossing: Improving user experience / usability`;
             } else if (commit.type === `responsive`) {
-              commit.type = `:iphone: Working on responsive design.`;
+              commit.type = `:iphone: Working on responsive design`;
             } else if (commit.type === `experimental`) {
               commit.type = `:alembic: Experimenting new things`;
             } else if (commit.type === `seo`) {
               commit.type = `:mag: Improving SEO`;
             } else if (commit.type === `merge`) {
-              commit.type = `:twisted_rightwards_arrows: Merging branches.`;
+              commit.type = `:twisted_rightwards_arrows: Merging branches`;
             } else if (commit.type === `chore`) {
-              commit.type = `:bookmark: Releasing / Version tags.`;
+              commit.type = `:bookmark: Releasing / Version tags`;
             } else {
               commit.type = `:alien: Automatic`;
             }
