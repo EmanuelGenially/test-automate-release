@@ -1,5 +1,22 @@
 # Change Log
 
+## [0.12.13](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.12...v0.12.13) (2018-11-06)
+
+
+### :alien: Automatic
+
+* Merge branch 'master' of https://github.com/EmanuelGenially/test-automate-release ([aeb878c](https://github.com/EmanuelGenially/test-automate-release/commit/aeb878c))
+
+
+### :memo: Writing documentation
+
+* **commits:** add news commits to docs ([9b0b585](https://github.com/EmanuelGenially/test-automate-release/commit/9b0b585))
+
+
+### :speech_balloon: Updating text and literals
+
+* remove points for notes generator ([785efa3](https://github.com/EmanuelGenially/test-automate-release/commit/785efa3))
+
 ## [0.12.12](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.11...v0.12.12) (2018-11-06)
 
 
