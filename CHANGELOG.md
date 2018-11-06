@@ -1,5 +1,17 @@
 # Change Log
 
+## [0.12.7](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.6...v0.12.7) (2018-11-06)
+
+
+### Code Refactoring
+
+* merge from master ([01b2bce](https://github.com/EmanuelGenially/test-automate-release/commit/01b2bce))
+
+
+### Summary :bug:
+
+* hola ([8efe2e4](https://github.com/EmanuelGenially/test-automate-release/commit/8efe2e4))
+
 ## [0.12.6](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.5...v0.12.6) (2018-11-06)
 
 
