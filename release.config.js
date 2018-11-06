@@ -116,6 +116,10 @@ module.exports = {
           {
             type: 'seo',
             release: 'patch'
+          },
+          {
+            type: 'merge',
+            release: 'patch'
           }
         ]
       }
@@ -204,6 +208,8 @@ module.exports = {
               commit.type = `:alembic: Experimenting new things`;
             } else if (commit.type === `seo`) {
               commit.type = `:mag: Improving SEO`;
+            } else if (commit.type === `merge`) {
+              commit.type = `:twisted_rightwards_arrows: Merging branches.`;
             }
 
             if (commit.scope === `*`) {

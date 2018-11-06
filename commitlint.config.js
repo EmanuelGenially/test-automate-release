@@ -52,7 +52,8 @@ module.exports = {
         'ux',
         'responsive',
         'experimental',
-        'seo'
+        'seo',
+        'merge'
       ]
     ]
   }
