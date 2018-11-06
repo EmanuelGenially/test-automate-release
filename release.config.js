@@ -3,6 +3,7 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
+        preset: 'angular',
         releaseRules: [
           {
             type: 'docs',
@@ -115,7 +116,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['package.json']
+        assets: ['package.json', 'CHANGELOG.md']
       }
     ]
   ]
