@@ -1,5 +1,15 @@
 # Change Log
 
+## [0.12.9](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.8...v0.12.9) (2018-11-06)
+
+
+### :wrench: Changing configuration files.
+
+* **commits:** add new types commits and emojis ([4e2361a](https://github.com/EmanuelGenially/test-automate-release/commit/4e2361a))
+
+
+* Merge branch 'master' of https://github.com/EmanuelGenially/test-automate-release ([ce29ea3](https://github.com/EmanuelGenially/test-automate-release/commit/ce29ea3))
+
 ## [0.12.8](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.7...v0.12.8) (2018-11-06)
 
 
