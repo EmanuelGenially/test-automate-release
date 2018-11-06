@@ -1,6 +1,6 @@
 {
   "name": "test-automate-release",
-  "version": "0.12.10",
+  "version": "0.12.11",
   "private": true,
   "dependencies": {
     "react": "^16.5.2",

@@ -1,5 +1,17 @@
 # Change Log
 
+## [0.12.11](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.10...v0.12.11) (2018-11-06)
+
+
+### :alien: Automatic
+
+* Merge branch 'master' of https://github.com/EmanuelGenially/test-automate-release ([d0cecd5](https://github.com/EmanuelGenially/test-automate-release/commit/d0cecd5))
+
+
+### :wrench: Changing configuration files.
+
+* add automatic and chore types ([4697b24](https://github.com/EmanuelGenially/test-automate-release/commit/4697b24))
+
 ## [0.12.10](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.9...v0.12.10) (2018-11-06)
 
 
