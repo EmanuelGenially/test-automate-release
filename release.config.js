@@ -20,6 +20,102 @@ module.exports = {
           {
             type: 'summary',
             release: 'patch'
+          },
+          {
+            type: 'format',
+            release: 'patch'
+          },
+          {
+            type: 'remove',
+            release: 'patch'
+          },
+          {
+            type: 'hotfix',
+            release: 'patch'
+          },
+          {
+            type: 'initial',
+            release: 'patch'
+          },
+          {
+            type: 'security',
+            release: 'patch'
+          },
+          {
+            type: 'ios',
+            release: 'patch'
+          },
+          {
+            type: 'android',
+            release: 'patch'
+          },
+          {
+            type: 'warnings',
+            release: 'patch'
+          },
+          {
+            type: 'upgrade',
+            release: 'patch'
+          },
+          {
+            type: 'downgrade',
+            release: 'patch'
+          },
+          {
+            type: 'wip',
+            release: 'patch'
+          },
+          {
+            type: 'config',
+            release: 'patch'
+          },
+          {
+            type: 'langs',
+            release: 'patch'
+          },
+          {
+            type: 'bad',
+            release: 'patch'
+          },
+          {
+            type: 'rename',
+            release: 'patch'
+          },
+          {
+            type: 'assets',
+            release: 'patch'
+          },
+          {
+            type: 'changes',
+            release: 'patch'
+          },
+          {
+            type: 'texts',
+            release: 'patch'
+          },
+          {
+            type: 'addlogs',
+            release: 'patch'
+          },
+          {
+            type: 'removelogs',
+            release: 'patch'
+          },
+          {
+            type: 'ux',
+            release: 'patch'
+          },
+          {
+            type: 'responsive',
+            release: 'patch'
+          },
+          {
+            type: 'experimental',
+            release: 'patch'
+          },
+          {
+            type: 'seo',
+            release: 'patch'
           }
         ]
       }
@@ -33,32 +129,81 @@ module.exports = {
             const issues = [];
 
             commit.notes.forEach(note => {
-              note.title = `BREAKING CHANGES`;
+              note.title = `:boom: BREAKING CHANGES`;
             });
 
             if (commit.type === `feat`) {
-              commit.type = `Features`;
+              commit.type = `:sparkles: Introducing new features`;
             } else if (commit.type === `fix`) {
-              commit.type = `Bug Fixes`;
+              commit.type = `:bug: Fixing a bug`;
             } else if (commit.type === `perf`) {
-              commit.type = `Performance Improvements`;
+              commit.type = `:zap: Improving performance`;
             } else if (commit.type === `revert`) {
-              commit.type = `Reverts`;
+              commit.type = `:rewind: Reverting changes`;
             } else if (commit.type === `docs`) {
-              commit.type = `Documentation`;
+              commit.type = `:memo: Writing documentation`;
             } else if (commit.type === `style`) {
-              commit.type = `Styles`;
+              commit.type = `:lipstick: Updating the UI and style files.`;
             } else if (commit.type === `refactor`) {
-              commit.type = `Code Refactoring`;
+              commit.type = `:recycle: Code Refactoring`;
             } else if (commit.type === `test`) {
-              commit.type = `Tests`;
+              commit.type = `:white_check_mark: Adding tests`;
             } else if (commit.type === `build`) {
-              commit.type = `Build System`;
+              commit.type = `:construction_worker: Build System`;
             } else if (commit.type === `ci`) {
-              commit.type = `Continuous Integration`;
+              commit.type = `:green_heart: Continuous Integration`;
             } else if (commit.type === `summary`) {
-              commit.type = `Summary`;
-              commit.subject = commit.subject + ' :bug:';
+              commit.type = `:bulb: Summary`;
+            } else if (commit.type === `format`) {
+              commit.type = `:art: Improving structure / format of the code.`;
+            } else if (commit.type === `remove`) {
+              commit.type = `:fire: Removing code or files.`;
+            } else if (commit.type === `hotfix`) {
+              commit.type = `:ambulance: Critical hotfix.`;
+            } else if (commit.type === `deploy`) {
+              commit.type = `:rocket: Deploying stuff.`;
+            } else if (commit.type === `initial`) {
+              commit.type = `:tada: Initial commit.`;
+            } else if (commit.type === `security`) {
+              commit.type = `:lock: Fixing security issues.`;
+            } else if (commit.type === `ios`) {
+              commit.type = `:green_apple: Fixing something on iOS.`;
+            } else if (commit.type === `android`) {
+              commit.type = `:robot: Fixing something on Android.`;
+            } else if (commit.type === `warnings`) {
+              commit.type = `:rotating_light: Removing linter warnings.`;
+            } else if (commit.type === `wip`) {
+              commit.type = `:construction: Work in progress.`;
+            } else if (commit.type === `upgrade`) {
+              commit.type = `:arrow_up: Upgrading dependencies.`;
+            } else if (commit.type === `downgrade`) {
+              commit.type = `:arrow_down: Downgrading dependencies.`;
+            } else if (commit.type === `config`) {
+              commit.type = `:wrench: Changing configuration files.`;
+            } else if (commit.type === `langs`) {
+              commit.type = `:globe_with_meridians: Internationalization and localization.`;
+            } else if (commit.type === `bad`) {
+              commit.type = `:hankey: Writing bad code that needs to be improved.`;
+            } else if (commit.type === `rename`) {
+              commit.type = `:truck: Moving or renaming files.`;
+            } else if (commit.type === `assets`) {
+              commit.type = `:bento: Adding or updating assets.`;
+            } else if (commit.type === `changes`) {
+              commit.type = `:ok_hand: Updating code due to code review changes.`;
+            } else if (commit.type === `texts`) {
+              commit.type = `:speech_balloon: Updating text and literals.`;
+            } else if (commit.type === `addlogs`) {
+              commit.type = `:loud_sound: Adding logs.`;
+            } else if (commit.type === `removelogs`) {
+              commit.type = `:mute: Removing logs.`;
+            } else if (commit.type === `ux`) {
+              commit.type = `:children_crossing: Improving user experience / usability.`;
+            } else if (commit.type === `responsive`) {
+              commit.type = `:iphone: Working on responsive design.`;
+            } else if (commit.type === `experimental`) {
+              commit.type = `:alembic: Experimenting new things`;
+            } else if (commit.type === `seo`) {
+              commit.type = `:mag: Improving SEO`;
             }
 
             if (commit.scope === `*`) {

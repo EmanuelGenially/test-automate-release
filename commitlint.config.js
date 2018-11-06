@@ -28,7 +28,31 @@ module.exports = {
         'revert',
         'style',
         'test',
-        'summary'
+        'summary',
+        'format',
+        'remove',
+        'hotfix',
+        'initial',
+        'security',
+        'ios',
+        'android',
+        'warnings',
+        'upgrade',
+        'downgrade',
+        'wip',
+        'config',
+        'langs',
+        'bad',
+        'rename',
+        'assets',
+        'changes',
+        'texts',
+        'addlogs',
+        'removelogs',
+        'ux',
+        'responsive',
+        'experimental',
+        'seo'
       ]
     ]
   }
