@@ -5,6 +5,7 @@
 - Install semanctic-release
 - Circle CI for continuous integration
 - And automatic release on push to master or by merging a pull request or merging from another branch
+- Adding plugins
 
 ## Getting Started
 
@@ -25,6 +26,7 @@ let´s go to install commitlint
 ```
 npm install --save-dev @commitlint/{config-conventional,cli}
 ```
+
 go to config commitlint
 
 ```
@@ -85,12 +87,11 @@ add semantic-release to dev dependencies
 
 [semantic-release - Commit message format](https://github.com/semantic-release/semantic-release#commit-message-format)
 
-
-| Commit message                                                                                                                                                                                   | Release type               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release  (0.0.**1**)            |
+| Commit message                                                                                                                                                                                   | Release type                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| `fix(pencil): stop graphite breaking when too much pressure applied`                                                                                                                             | Patch Release (0.0.**1**)              |
 | `feat(pencil): add 'graphiteWidth' option`                                                                                                                                                       | ~~Minor~~ Feature Release (0.**1**.0)  |
-| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release (**1**.0.0)|
+| `perf(pencil): remove graphiteWidth option`<br><br>`BREAKING CHANGE: The graphiteWidth option has been removed.`<br>`The default graphite width of 10mm is always used for performance reasons.` | ~~Major~~ Breaking Release (**1**.0.0) |
 
 ### Circle CI for continuous integration
 
@@ -148,6 +149,50 @@ Add enviroment variables to CircleCi `GH_TOKEN` and `NPM_TOKEN`
 
 And now, automatic release on push to master or by merging a pull request or merging from another branch.
 
+## Adding plugins
+
+Install packages:
+
+```
+$ npm install @semantic-release/commit-analyzer -D
+```
+
+```
+$ npm install @semantic-release/release-notes-generator -D
+```
+
+```
+$ npm install @semantic-release/changelog -D
+```
+
+```
+$ npm install @semantic-release/npm -D
+```
+
+```
+$ npm install @semantic-release/github -D
+```
+
+```
+$ npm install @semantic-release/git -D
+```
+
+Second step, set enviroment variables for git plugin in CircleCI:
+
+##### Environment variables
+
+| Variable              | Description                                                                                                                                                              | Default                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ |
+| `GIT_AUTHOR_NAME`     | The author name associated with the release commit. See [Git environment variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#_committing).     | @semantic-release-bot.               |
+| `GIT_AUTHOR_EMAIL`    | The author email associated with the release commit. See [Git environment variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#_committing).    | @semantic-release-bot email address. |
+| `GIT_COMMITTER_NAME`  | The committer name associated with the release commit. See [Git environment variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#_committing).  | @semantic-release-bot.               |
+| `GIT_COMMITTER_EMAIL` | The committer email associated with the release commit. See [Git environment variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#_committing). | @semantic-release-bot email address. |
+
+The next steps, create new file in root directory:
+[release.config.js](https://github.com/EmanuelGenially/test-automate-release/blob/master/release.config.js)
+
+and modify [commitlint.config.js](https://github.com/EmanuelGenially/test-automate-release/blob/master/commitlint.config.js)
+
 ## Built With
 
 - [commitlint](https://github.com/marionebl/commitlint)
@@ -155,3 +200,5 @@ And now, automatic release on push to master or by merging a pull request or mer
 - [Angular contribution guideline](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)
 - [semanctic-release](https://github.com/semantic-release/semantic-release)
 - [CircleCi](https://circleci.com)
+- [gitmoji](https://gitmoji.carloscuesta.me/)
+- And :heart:
