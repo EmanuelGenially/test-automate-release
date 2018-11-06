@@ -22,7 +22,7 @@ module.exports = {
     [
       '@semantic-release/release-notes-generator',
       {
-        parserOpts: {},
+        preset: 'angular',
         writerOpts: {
           transform: (commit, context) => {
             const issues = [];
