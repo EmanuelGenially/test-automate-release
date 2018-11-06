@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.12.8](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.7...v0.12.8) (2018-11-06)
+
+
+### Summary
+
+* test bug :bug: ([371b361](https://github.com/EmanuelGenially/test-automate-release/commit/371b361))
+
 ## [0.12.7](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.6...v0.12.7) (2018-11-06)
 
 
