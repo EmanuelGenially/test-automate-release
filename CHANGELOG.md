@@ -1,5 +1,12 @@
 # Change Log
 
+## [0.12.12](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.11...v0.12.12) (2018-11-06)
+
+
+### :memo: Writing documentation
+
+* add new features to docs ([ff11cc7](https://github.com/EmanuelGenially/test-automate-release/commit/ff11cc7))
+
 ## [0.12.11](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.10...v0.12.11) (2018-11-06)
 
 
