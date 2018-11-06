@@ -37,7 +37,7 @@
             },
             {
               "type": "style",
-              "release": "minor"
+              "release": "patch"
             }
           ]
         }
@@ -45,20 +45,9 @@
       [
         "@semantic-release/release-notes-generator",
         {
-          "preset": "angular",
-          "parserOpts": {
-            "noteKeywords": [
-              "BREAKING CHANGE",
-              "BREAKING CHANGES",
-              "BREAKING"
-            ]
-          },
+          "parserOpts": {},
           "writerOpts": {
-            "commitsSort": [
-              "docs",
-              "refactor",
-              "style"
-            ]
+            "transform": {}
           }
         }
       ],
