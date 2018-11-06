@@ -210,6 +210,10 @@ module.exports = {
               commit.type = `:mag: Improving SEO`;
             } else if (commit.type === `merge`) {
               commit.type = `:twisted_rightwards_arrows: Merging branches.`;
+            } else if (commit.type === `chore`) {
+              commit.type = `:bookmark: Releasing / Version tags.`;
+            } else {
+              commit.type = `:alien: Automatic`;
             }
 
             if (commit.scope === `*`) {
