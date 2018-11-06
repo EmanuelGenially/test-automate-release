@@ -44,6 +44,12 @@
       ],
       "@semantic-release/release-notes-generator",
       [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
         "@semantic-release/npm",
         {
           "npmPublish": false
@@ -69,6 +75,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-conventional": "^7.1.2",
+    "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/commit-analyzer": "^6.1.0",
     "@semantic-release/git": "^7.0.5",
     "@semantic-release/github": "^5.2.1",
