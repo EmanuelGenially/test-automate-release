@@ -1,5 +1,15 @@
 # Change Log
 
+## [0.12.10](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.9...v0.12.10) (2018-11-06)
+
+
+### :wrench: Changing configuration files.
+
+* add merge commit ([d91cfbe](https://github.com/EmanuelGenially/test-automate-release/commit/d91cfbe))
+
+
+* Merge branch 'master' of https://github.com/EmanuelGenially/test-automate-release ([79f1344](https://github.com/EmanuelGenially/test-automate-release/commit/79f1344))
+
 ## [0.12.9](https://github.com/EmanuelGenially/test-automate-release/compare/v0.12.8...v0.12.9) (2018-11-06)
 
 
