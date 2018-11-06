@@ -57,7 +57,8 @@ module.exports = {
             } else if (commit.type === `ci`) {
               commit.type = `Continuous Integration`;
             } else if (commit.type === `summary`) {
-              commit.type = `Summary :bug:`;
+              commit.type = `Summary`;
+              commit.subject = commit.subject + ' :bug:';
             }
 
             if (commit.scope === `*`) {
