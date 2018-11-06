@@ -193,6 +193,45 @@ The next steps, create new file in root directory:
 
 and modify [commitlint.config.js](https://github.com/EmanuelGenially/test-automate-release/blob/master/commitlint.config.js)
 
+## New commits types:
+
+- **build**(_dependencies_): Changes that affect the build system or external dependencies.
+- **ci**(_CircleCi_): Changes to our CI configuration files and scripts.
+- **docs**(_readme_): Documentation only changes.
+- **feat**: A new feature.
+- **fix**: A bug fix.
+- **perf**: A code change that improves performance.
+- **refactor**: A code change that neither fixes a bug or adds a feature.
+- **style**: Changes that affect the styles (css, scss).
+- **test**: Adding missing tests or correcting existing tests.
+- **revert**: Revert commits or PR.
+- **summary**: Resume.
+- **format**: Improving structure / format of the code.
+- **remove**: Removing code or files.
+- **hotfix**: Critical hotfix.
+- **initial**: Initial commit.
+- **security**: Fixing security issues.
+- **ios**: Fixing something on iOS.
+- **android**: Fixing something on Android.
+- **warnings**: Removing linter warnings.
+- **upgrade**: Upgrading dependencies.
+- **downgrade**: Downgrading dependencies.
+- **wip**: Work in progress.
+- **config**: Changing configuration files.
+- **langs**: Internationalization and localization.
+- **bad**: Writing bad code that needs to be improved.
+- **rename**: Moving or renaming files.
+- **assets**: Adding or updating assets.
+- **changes**: Updating code due to code review changes.
+- **texts**: Updating text and literals.
+- **addlogs**: Adding logs.
+- **removelogs**: Removing logs.
+- **ux**: Improving user experience / usability.
+- **responsive**: Working on responsive design.
+- **experimental**: Experimenting new things.
+- **seo**: Improving SEO.
+- **merge**: Merging branches.
+
 ## Built With
 
 - [commitlint](https://github.com/marionebl/commitlint)
